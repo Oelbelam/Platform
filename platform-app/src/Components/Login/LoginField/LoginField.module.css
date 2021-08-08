@@ -1,0 +1,19 @@
+.LoginField {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.UserName{
+    width: 450px;
+    height: 45px;
+    border: 1.5px solid #6B2CBC;
+}
+
+.PassWord{
+    width: 450px;
+    height: 45px;
+    border: 1.5px solid #000000;
+}

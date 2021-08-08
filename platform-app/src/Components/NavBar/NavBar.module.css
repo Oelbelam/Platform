@@ -1,0 +1,36 @@
+.NavBar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    gap: 10px;
+}
+
+.Home {
+    padding: 10px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.About{
+    padding: 10px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.Login{
+    padding: 10px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.Signup{
+    padding: 10px;
+    background: #6B2CBC;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

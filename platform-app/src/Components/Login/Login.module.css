@@ -1,0 +1,18 @@
+.Login {
+    width: 50%;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.WelcomeBack{
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.LoginBtn{
+
+}
