@@ -1,14 +1,18 @@
 .LoginFieldwrapper {
 	height: 200px;
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 	/* border: 1px solid black; */
 }
 
 .LoginField {
-    height: 110px;
+    height: 120px;
 		width: 100%;
-		border: 1px solid black;
+		/* border: 1px solid black; */
     display: flex;
+		gap: 20px;
     flex-direction: column;
     padding: 5px;
     justify-content: space-between;
@@ -17,16 +21,27 @@
 .usernamewrapper {
 	width: 100%;
 	height: 45px;
-	/* background: black; */
-	/* padding: 10px; */
 	background: white;
 	border-radius: 5px;
 	border: 1px solid #848181;
-	/* z-index: 0; */
 	display: flex;
 	gap: 10px;
-	/* justify-content: center; */
 }
+
+.svgwrapper {
+	padding: 0px 10px;
+	/* background-color: red; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.usersvg {
+	fill: #6B2CBC;
+	width: 25px;
+	height: 25px;
+}
+
 
 .UserName{
     width: 85%;
@@ -38,11 +53,26 @@
     border: none;
 }
 
-.PassWord{
-    width: 100%;
-    height: 45px;
+.passwrapper {
+	display: flex;
+	height: 45px;
+	background-color: white;
+	border: 1px solid #848181;
+	border-radius: 5px;
+}
+
+.Password{
+    width: 90%;
+		padding-left: 10px;
+		outline: none;
 		font-size: 20px;
-    border: 1.5px solid #000000;
+		border: none;
+    /* border: 1.5px solid #848181; */
+}
+
+.passsvg {
+	width: 25px;
+	height: 25px;
 }
 
 .loginbuttonwrapper {

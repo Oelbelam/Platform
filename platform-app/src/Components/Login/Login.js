@@ -3,9 +3,11 @@ import LoginField from './LoginField/LoginField';
 const Login = () => {
 	return (
 		<div className={classes.Login} >
-			<div className={classes.WelcomeBack}>welcome back</div>
+			<div className={classes.welcomebackwrapper}>
+				<p className = {classes.welcomeback}>Welcome Back</p>
+				<h3 className = {classes.logintocontinue}>Login to Continue</h3>	
+			</div>
 			<LoginField/>
-			
 		</div>
 	)
 }
