@@ -5,7 +5,9 @@ const Main = () => {
 	return (
 		<div className={classes.Main} >
 			<div className={classes.MainImage}></div>
-			<Login/>
+			<div className = {classes.loginwrapper}>
+				<Login/>
+			</div>
 		</div>
 
 	)
