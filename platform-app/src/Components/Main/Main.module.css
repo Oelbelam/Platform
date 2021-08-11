@@ -1,7 +1,7 @@
 .Main {
     width: 100%;
     min-width: 1200px;
-    height: 750px;
+    height: 500px;
     /* background: black; */
     display: flex;
     justify-content: space-between; 
@@ -18,5 +18,12 @@
 
 .MainImage{
     width: 50%;
-    background: blue;
+    /* background: blue; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+.loginImage {
+	width: 100%;
 }
